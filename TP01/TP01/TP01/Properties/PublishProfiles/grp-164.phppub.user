@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAslUajnkr/E+qZxwzeDquVwAAAAACAAAAAAADZgAAwAAAABAAAAAVDOnjax6Jpuve9UU2gSyZAAAAAASAAACgAAAAEAAAAK2D9eEhnUORWOaQ1KJJdi4YAAAA++kLQZ1kqGFVHoIGv21pDYCV+mcz9POpFAAAAGHS2AJMSVp3dd5Ka93TKMxFt2QN</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="index.php">
+      <publishTime>09/20/2018 07:48:37</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

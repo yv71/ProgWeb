@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "TP01", "..\..\..\..\..\Users\yv066840\Desktop\TP01\TP01\TP01\TP01.phpproj", "{3BBDB27B-7E8F-4D9F-9AC6-B4E118A3AD38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BBDB27B-7E8F-4D9F-9AC6-B4E118A3AD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBDB27B-7E8F-4D9F-9AC6-B4E118A3AD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77CBD353-E986-437A-AF97-C1CB2B89AADB}
+	EndGlobalSection
+EndGlobal
