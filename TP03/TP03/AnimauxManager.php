@@ -35,6 +35,18 @@ class AnimauxManager
         }
         return $animaux;
     }
+
+    public function add(Animal $animal){
+        $stmt = $this->_db->prepare("insert into animaux (nom, espece, cri, proprietaire, age) values (:nom, :espece, :cri, :proprio, :age)");
+        $stmt->bindValue(':nom', $animal->nom());
+        $stmt->bindValue(':espece', $animal->espece());
+        $stmt->bindValue(':cri', $animal->cri());
+        $stmt->bindValue(':proprio', $animal->proprietaire());
+        $stmt->bindValue(':age', $animal->age());
+        $this->_db->beginTransaction();
+        $stmt->execute();
+        $this->_db->commit();
+    }
 }
 
 ?>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAawt03uV0o0GYPKs1Y+qTqgAAAAACAAAAAAADZgAAwAAAABAAAADye/v1/mlqDkt2n5rIdIc+AAAAAASAAACgAAAAEAAAAM1fOfuL2zz2fSd4Hewut0oYAAAAuyni3gEMsfMni5SBneQvnsivULdQE5JKFAAAAODMW1g+/Vcus5ZlOHm5zvkHp4od</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ajout.php">
+      <publishTime>11/16/2018 10:44:12</publishTime>
+    </File>
+    <File Include="Animal.php">
+      <publishTime>11/16/2018 10:23:03</publishTime>
+    </File>
+    <File Include="AnimauxManager.php">
+      <publishTime>11/16/2018 10:29:28</publishTime>
+    </File>
+    <File Include="index.php">
+      <publishTime>11/16/2018 10:38:49</publishTime>
+    </File>
+    <File Include="VueAnimal.php">
+      <publishTime>11/16/2018 09:16:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

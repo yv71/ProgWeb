@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Name>TP03</Name>
-    <ProjectGuid>{e5dcf786-8276-4345-8758-45ea47440397}</ProjectGuid>
+    <ProjectGuid>{68c7ad4a-3aec-4228-a5d5-605e85713ab7}</ProjectGuid>
     <RootNamespace>
     </RootNamespace>
     <OutputType>Library</OutputType>
@@ -19,6 +19,7 @@
     <DebugMappingMethod>Automatic</DebugMappingMethod>
     <DBGpProxyEnabled>false</DBGpProxyEnabled>
     <DBGpProxyPort>9001</DBGpProxyPort>
+    <PublishBeforeDebugProfile>grp-164</PublishBeforeDebugProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -27,9 +28,11 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ajout.php" />
     <Compile Include="Animal.php" />
     <Compile Include="AnimauxManager.php" />
-    <Compile Include="VueAnimal.php" />
     <Compile Include="index.php" />
+    <Compile Include="modifier.php" />
+    <Compile Include="VueAnimal.php" />
   </ItemGroup>
 </Project>
